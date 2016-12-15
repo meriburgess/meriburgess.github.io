@@ -1,25 +1,24 @@
 body {
-  background-color: rgb(172, 226, 209);
+  background-color: rgb(0, 0, 0);
   font-family: helvetica;
-  overflow: auto;
 }
 
 h1 {
-  color: rgb(42, 47, 71);
+  color: rgb(225, 225, 225);
   font-size: 45px;
-  margin-left: 300px;
+  text-align: left;
+  padding-left: 20px;
 }
 
-h2 {
-  text-align: center;
-}
 
 h3 {
-  text-align: center;
+  color: rgb(225, 225, 225);
+  text-align: left;
 }
 
 h4 {
-  text-align: center;
+  color: rgb(225, 225, 225);
+  text-align: left;
 }
 
 a {
@@ -31,26 +30,60 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
+
 #pic1 {
   float: left;
-  margin-left: 50px;
-  margin-bottom: 30px;
 }
 
-#sec1 {
-  text-align: center;
-  width: 400px;
+#about {
+  text-align: left;
+  width: 500px;
   padding: 15px;
-  margin-left: 400px;
-  background-color: rgba(235, 255, 250, 0.3);
+  background-color: rgba(95, 95, 95, 0.5);
+  display: inline-block;
+  font-size: 16px;
+  color: rgb(205, 205, 205);
 }
+
+#buttons{
+  background-color: rgba(125, 125, 125, 0.3);
+  text-align: left;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 0px solid #ffffff;
+    border-radius: 7px;
+    background: rgba(125, 125, 125, 0.0);
+    text-shadow: #8f8c8f 0px 0px 1px;
+    font: normal normal 18px helvetica;
+    color: #e2e2e2;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    color: #ffffff;
+    text-shadow: 2px 0px #adadad;
+    text-decoration: none;
+}
+.button:active {
+    background: #999999;
+}
+
+
+
+
+
 
 #work {
   text-align: center;
   width: 550px;
   padding: 15px;
   margin-bottom: 30px;
-  background-color: rgba(235, 255, 250, 0.3);
+  background-color: rgba(235, 255, 250, 0.5);
   float: left;
   clear: left;
 }
@@ -62,7 +95,7 @@ a:hover, a:active {
   margin: auto;
   margin-bottom: 30px;
   margin-left: 30px;
-  background-color: rgba(235, 255, 250, 0.3);
+  background-color: rgba(235, 255, 250, 0.5);
   float:left;
 }
 
@@ -72,6 +105,7 @@ a:hover, a:active {
   padding: 15px;
   margin-left: 30px;
   margin-bottom: 30px;
-  background-color: rgba(235, 255, 250, 0.3);
+  background-color: rgba(235, 255, 250, 0.5);
+
 
 }
